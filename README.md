@@ -3,7 +3,7 @@ designing intelligent systems that grow with us
 
 - #0 Executive preview
 - #1 Why this moment demands a new lens
-- #2 Vibe architecting - a working definition
+- #2 Vibe architecting (a working definition)
 - #3 Architectural skeleton (MVP‑ready)
 - #4 Four principles of context-adaptive systems
 - #5 What becomes possible
@@ -42,7 +42,7 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 2. Vibe architecting - a working definition
+## 2. Vibe architecting (a working definition)
 
 > **Vibe architecting** is the practice of designing systems that evolve with their users - emotionally, contextually, and intentionally.
 > 
@@ -227,3 +227,7 @@ This isn’t just conceptual. The architectural patterns described above are alr
 
 What you get is not just automation.  
 You get the conditions for growth - both for the system and for the person shaping it.
+
+**Henrik Sunde Ødegård**  
+_AI Systems Architect and Context Engineer_  
+Trondheim, July 2025
