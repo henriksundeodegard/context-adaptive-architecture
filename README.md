@@ -82,7 +82,7 @@ The next section is what a practical implementation of vibe architecting might l
                               │
                               ▼
 ┌──────────────────────────────────────────────────────────────────────┐
-│ 3. REFLEXIVE AGENT HUB                                               │
+│ 3. REFLEXIVE AGENT(S)                                                │
 │    Suggestor → Evaluator → Guard‑rail                                │
 └──────────────────────────────────────────────────────────────────────┘
          │ proposal + rationale    ▲ user choice    ▲
