@@ -1,8 +1,8 @@
-# Reflexive Agent Scaffold
+# Reflexive agent scaffold
 
 This scaffold provides a foundational structure for implementing the Evaluator subsystem of the Reflexive Agent Hub as described in the main context-adaptive architecture.
 
-## 📁 Scaffold Contents
+## Scaffold contents
 
 This directory now includes the following supporting documents, located in `docs/`, which together define the Evaluator subsystem of the Reflexive Agent Hub:
 
@@ -12,4 +12,4 @@ This directory now includes the following supporting documents, located in `docs
 - **model-selection-reference.md** – Comprehensive reference guide for tool/model selection across Copilot and ChatGPT environments.
 - **long-term-vision.md** – Evaluator subsystem vision document linking the above documents and explaining their architectural role.
 
-All files contain active content and are ready for iterative development and versioning.
+All files contain active content (formalized mid-March 2025) and are ready for iterative development and versioning.
