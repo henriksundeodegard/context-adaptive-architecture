@@ -1,4 +1,5 @@
 # Deep Research Capability Analysis
+- date: approximately march 2025
 
 Technical justification for capability-awareness design, referencing transformer limitations and RL calibration methods.
 
