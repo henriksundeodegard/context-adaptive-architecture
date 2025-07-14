@@ -140,7 +140,7 @@ As LLMs, Copilot agents, and autonomous workflows allow anyone to generate compl
 
 ## 6. Measuring human-centered growth
 
-_Flourishing signals for context-adaptive systems_ might include:
+Flourishing signals for context-adaptive systems _might_ include: 
 
 - **Clarity drift**: Measured as an increase in the frequency of context-switching (e.g., rapidly toggling between applications or tasks) within a 10-minute window, which might indicate a loss of focus. The system's goal would be to propose changes that reduce this volatility over time.
 - **Reflection rate**: Frequency of user-initiated pauses or journaling
