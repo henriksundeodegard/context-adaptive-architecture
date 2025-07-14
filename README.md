@@ -24,6 +24,8 @@ designing intelligent systems that grow with us
 > **Context-adaptive / vibe architecting**: a form of _context-adaptive systems architecture_ that centers human growth, emotional resonance, and intentional evolution from the ground up. 
 > 
 > The term 'vibe' is used deliberately to center the often-overlooked affective and felt sense of a system's interaction, moving beyond purely functional metrics. It refers to a composite of ambient signals (context, emotion, time, input patterns) that shape user experience but often go unmodeled in traditional systems.
+> 
+> While initially rooted in personal automation and ambient computing, vibe architecting is a domain-agnostic approach: any intelligent system that touches human behavior, emotion, or context can adopt this architecture to evolve meaningfully with its users.
 
 This article gives practitioners a vocabulary, a set of principles, and a concrete first‑step roadmap.
 
@@ -113,6 +115,8 @@ This is the scaffolding for a context-adaptive system: one that learns, reflects
 
 ## 4. Four principles of context-adaptive systems
 
+As LLMs, Copilot agents, and autonomous workflows allow anyone to generate complex software, a new frontier emerges: **how do we ensure these easily conceptualized intelligent systems remain coherent, aligned, and evolvable over time?**
+
 |   #   | Principle                  | Practical implication                                                                                                                                                                                                                                            |
 | :---: | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1** | **Context-awareness**      | The system listens to environment, timing, emotional signal - not just clicks.<br><br>Sensors, calendars, docs, behavioural traces feed a living _context graph_ used in every decision.<br><br>_The system doesn’t just respond to inputs - it reads the room._ |
@@ -175,15 +179,19 @@ These aren’t final metrics. They’re scaffolds. The goal isn’t just persona
 | **6 months** | Guard‑rail agent + metrics | Static analysis on flow changes; Grafana dashboard of “friction events vs. self‑reported clarity” |
 | **1 year**   | Small public alpha         | Dockerised template repo, write‑up, community Discord for shared patterns                         |
 
+> Whatever the domain, the core structure remains: Context in → Reflexive loop → Consent layer → Adaptive behavior → Feedback as context in.
+
 ---
 
 ## 9. Call to action
 
-- **Builders**: Scaffold the architecture, run it locally, log what breaks.
+- **Builders**: Scaffold the architecture, run it locally or in your domain of choice (health, education, collaboration), and log what breaks.
 - **Researchers**: Help formalize growth‑metrics beyond engagement.
-- **Product teams**: Ask how _intentional friction_ can raise - not just flatten - user agency.
+- **Product teams**: Ask how _intentional friction_ can raise - not just flatten - user agency in your product category.
+- **Educators**: Build learning platforms that adjust _structure_, not just content - responding to focus signals, context shifts, and student growth.
+- **Toolmakers**: Fork the core pattern into creative domains: DAWs, writing apps, second brains, or collaborative whiteboards.
 
-> Vibe architecting is the name I’ve given to the work I believe many of us are already doing in fragments. What we're shaping isn’t automation, but resonance. Systems that reflect. Systems that evolve _alongside us_.
+> Vibe architecting is not just for personal AI. It’s a foundation for designing _any system that evolves with human complexity_. What we're shaping isn’t pure automation, but resonance. Systems that reflect. Systems that evolve _alongside us_.
 > 
 > _Vibe architecting will be shaped by whoever shows up early - and stays human while the tools get strange._
 
@@ -229,5 +237,5 @@ What you get is not just automation.
 You get the conditions for growth - both for the system and for the person shaping it.
 
 **Henrik Sunde Ødegård**  
-_AI Systems Architect and Context Engineer_  
+_AI systems architect and context engineer_  
 Trondheim, July 2025
