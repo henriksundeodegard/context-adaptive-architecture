@@ -25,7 +25,7 @@ designing intelligent systems that grow with us
 > 
 > The term 'vibe' is used deliberately to center the often-overlooked affective and felt sense of a system's interaction, moving beyond purely functional metrics. It refers to a composite of ambient signals (context, emotion, time, input patterns) that shape user experience but often go unmodeled in traditional systems.
 > 
-> While initially rooted in personal automation and ambient computing, vibe architecting is a domain-agnostic approach: any intelligent system that touches human behavior, emotion, or context can adopt this architecture to evolve meaningfully with its users.
+> While initially rooted in personal automation and ambient computing, vibe architecting is a domain-agnostic approach: any intelligent system that touches human behavior, emotion, or context can adopt this architecture to evolve meaningfully with its users. The system adapts at the speed of user reflection, not the speed of telemetry.
 
 This article gives practitioners a vocabulary, a set of principles, and a concrete first‑step roadmap.
 
