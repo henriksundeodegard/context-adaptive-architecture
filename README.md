@@ -115,7 +115,7 @@ This is the scaffolding for a context-adaptive system: one that learns, reflects
 
 ## 4. Four principles of context-adaptive systems
 
-As LLMs, Copilot agents, and autonomous workflows allow anyone to generate complex software, a new frontier emerges: **how do we ensure these easily conceptualized intelligent systems remain coherent, aligned, and evolvable over time?**
+As LLMs, coding agents, and autonomous workflows allow anyone to generate complex software, a new frontier emerges: **how do we ensure these easily conceptualized intelligent systems remain coherent, aligned, and evolvable over time?**
 
 |   #   | Principle                  | Practical implication                                                                                                                                                                                                                                            |
 | :---: | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -140,7 +140,7 @@ As LLMs, Copilot agents, and autonomous workflows allow anyone to generate compl
 
 ## 6. Measuring human-centered growth
 
-Flourishing signals for context-adaptive systems _might_ include: 
+_Flourishing signals for context-adaptive systems_ might include:
 
 - **Clarity drift**: Measured as an increase in the frequency of context-switching (e.g., rapidly toggling between applications or tasks) within a 10-minute window, which might indicate a loss of focus. The system's goal would be to propose changes that reduce this volatility over time.
 - **Reflection rate**: Frequency of user-initiated pauses or journaling
@@ -223,7 +223,7 @@ This isn’t just conceptual. The architectural patterns described above are alr
 **Why this setup matters**:
 - **It’s entirely self-hosted**: Ensuring privacy, control, and inspectability
 - **It integrates tightly with the physical world**: Lights, schedules, notifications, behavioral traces
-- **It supports recursive development**: With Git + Copilot + agent feedback, I can evolve the system using the system
+- **It supports recursive development**: With Git + coding agents + agent feedback, I can evolve the system using the system
 - **It’s replicable**: Anyone with a modest local setup can begin experimenting
 
 > If you're looking to get started yourself, this is a proven baseline:
@@ -236,6 +236,6 @@ This isn’t just conceptual. The architectural patterns described above are alr
 What you get is not just automation.  
 You get the conditions for growth - both for the system and for the person shaping it.
 
-**Henrik Sunde Ødegård**  
-_AI systems architect and context engineer_  
+**Henrik Sunde Ødegård**
+_AI systems architect and context engineer_
 Trondheim, July 2025
