@@ -147,7 +147,9 @@ _Flourishing signals for context-adaptive systems_ might include:
 - **Override patterns**: How often users reject “smart” suggestions
 - **Mood coherence**: Passive biometric signal alignment (if available)
 
-These aren’t final metrics. They’re scaffolds. The goal isn’t just personalization - it’s alignment with who the user is becoming.
+These aren’t final metrics. They’re scaffolds - with a built in reflection loop around the core question, "*What does the environment I’m currently deployed in need to flourish?*".
+
+The goal isn’t just personalization - it’s alignment with who the user is becoming and how their environment evolves.
 
 ---
 
