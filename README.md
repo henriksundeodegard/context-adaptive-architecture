@@ -12,7 +12,7 @@ designing intelligent systems that grow with us
 - #8 Limits and open problems
 - #9 First‑step roadmap
 - #10 Call to action
-- #11. Reflections
+- #11. [reflections.md](reflections.md)
 
 _This text was written in collaboration with AI_
  
