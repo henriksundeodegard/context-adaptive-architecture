@@ -2,6 +2,8 @@
 
 _This text was written in collaboration with AI_
 
+Context: [Context-adaptive architecture](README.md)
+
 **Preamble:**  
 Much of current AI development focuses on building increasingly capable, single-instance intelligent agents. But as tools like LLMs, agent frameworks, and workflow orchestrators become more powerful, I think we need a shift in orientation — from building *individual AIs* to building the **systems that create AIs**.  
 This is the move from artifact to *foundry* — from “make a tool” to “sculpt the system that makes tools intentionally.”
