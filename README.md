@@ -2,17 +2,19 @@
 designing intelligent systems that grow with us
 
 - #0 Executive preview
-- #1 Why this moment demands a new lens
-- #2 Vibe architecting (a working definition)
-- #3 Architectural skeleton (MVP‑ready)
-- #4 Four principles of context-adaptive systems
-- #5 What becomes possible
-- #6 Measuring human-centered growth
-- #7 Limits and open problems
-- #8 First‑step roadmap
-- #9 Call to action
-- #10 A real-world setup: vibe architecting on the ground
+- #1 A real-world setup
+- #2 Why this moment demands a new lens
+- #3 Vibe architecting (a working definition)
+- #4 Architectural skeleton (MVP‑ready)
+- #5 Four principles of context-adaptive systems
+- #6 What becomes possible
+- #7 Measuring human-centered growth
+- #8 Limits and open problems
+- #9 First‑step roadmap
+- #10 Call to action
 
+_This text was written in collaboration with AI_
+ 
 ---
 
 ## 0. Executive preview
@@ -31,7 +33,44 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 1. Why this moment demands a new lens
+## 1. A real-world setup
+
+This isn’t just conceptual. The architectural patterns described above are already being implemented in a real, working environment - one you can replicate or adapt.
+
+**To prototype this system, I’ve configured a local-first orchestration stack using**:
+- **Hardware:** Intel NUC / Mac Mini running **Home Assistant OS**
+- **Automation layer:** `n8n` installed as a native **Home Assistant Add-on**
+- **External AI:** OpenAI/Gemini/Claude APIs (used for heavier reasoning)
+- **Local context access:** Sensor streams (motion, presence, calendar, weather), exposed through Home Assistant APIs
+- **Developer environment:**
+    - VSCode with full access to `/config` via SSH
+    - GitHub Copilot and/or Claude Code CLI for AI-assisted development
+    - Version-controlled `n8n` workflows in `/config/ha_utils_artifacts/n8n/workflows/`
+
+**This stack gives me**:
+- A **context bus** that fuses local sensor data, calendar signals, and user inputs
+- A modular orchestration core (n8n) to model agent chains and behavioral flows
+- A direct interface to AI coding agents (like GitHub Copilot or Claude Code CLI) that can:
+    - Build subflows
+    - Refactor adaptive patterns
+    - Generate evaluative code for Suggestor or Guard-rail agents
+
+**Why this setup matters**:
+- **It’s entirely self-hosted**: Ensuring privacy, control, and inspectability
+- **It integrates tightly with the physical world**: Lights, schedules, notifications, behavioral traces
+- **It supports recursive development**: With Git + coding agents + agent feedback, I can evolve the system using the system
+- **It’s replicable**: Anyone with a modest local setup can begin experimenting
+
+> If you're looking to get started yourself, this is a proven baseline:
+> - Home Assistant OS + n8n add-on
+> - Local and personal API integrations (presence, calendar, sensors)
+> - Secure SSH + VSCode access
+> - GitHub Copilot + Claude Code CLI for agent-assisted coding
+> - Optional OpenAI/Gemini/Claude API calls for agent logic
+
+---
+
+## 2. Why this moment demands a new lens
 
 - **Tool democratization:** Low‑code platforms (n8n, Node‑RED, Make, etc.) + GPT‑class APIs let _any_ developer or power user wire up autonomous agents.
 
@@ -44,7 +83,7 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 2. Vibe architecting (a working definition)
+## 3. Vibe architecting (a working definition)
 
 > **Vibe architecting** is the practice of designing systems that evolve with their users - emotionally, contextually, and intentionally.
 > 
@@ -65,7 +104,7 @@ The next section is what a practical implementation of vibe architecting might l
 
 ---
 
-## 3. Architectural skeleton (MVP‑ready)
+## 4. Architectural skeleton (MVP‑ready)
 
 ````
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -113,7 +152,7 @@ This is the scaffolding for a context-adaptive system: one that learns, reflects
 
 ---
 
-## 4. Four principles of context-adaptive systems
+## 5. Four principles of context-adaptive systems
 
 As LLMs, coding agents, and autonomous workflows allow anyone to generate complex software, a new frontier emerges: **how do we ensure these easily conceptualized intelligent systems remain coherent, aligned, and evolvable over time?**
 
@@ -127,7 +166,7 @@ As LLMs, coding agents, and autonomous workflows allow anyone to generate comple
 
 ---
 
-## 5. What becomes possible
+## 6. What becomes possible
 
 | Domain                 | Concrete example                                                                                                                                                                                                                                                                   |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -138,7 +177,7 @@ As LLMs, coding agents, and autonomous workflows allow anyone to generate comple
 
 ---
 
-## 6. Measuring human-centered growth
+## 7. Measuring human-centered growth
 
 _Flourishing signals for context-adaptive systems_ might include:
 
@@ -153,7 +192,7 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 
 ---
 
-## 7. Limits and open problems
+## 8. Limits and open problems
 
 1. **Alignment recursion**: Self‑modifying agents must explicitly inherit, verify, and transparently document their underlying value‑sets. Whether inherited through user onboarding, carefully crafted prompt libraries, or adaptive feedback loops, these assumptions must always remain inspectable. Formal verification methods and tamper‑evident logs become non‑negotiable to maintain user trust and system integrity.
 
@@ -166,7 +205,7 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 
 ---
 
-## 8. First‑step roadmap
+## 9. First‑step roadmap
 
 | Horizon    | Deliverable                                                                                                                                                                                                                   |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -185,7 +224,7 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 
 ---
 
-## 9. Call to action
+## 10. Call to action
 
 - **Builders**: Scaffold the architecture, run it locally or in your domain of choice (health, education, collaboration), and log what breaks.
 - **Researchers**: Help formalize growth‑metrics beyond engagement.
@@ -193,51 +232,9 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 - **Educators**: Build learning platforms that adjust _structure_, not just content - responding to focus signals, context shifts, and student growth.
 - **Toolmakers**: Fork the core pattern into creative domains: DAWs, writing apps, second brains, or collaborative whiteboards.
 
-> Vibe architecting is not just for personal AI. It’s a foundation for designing _any system that evolves with human complexity_. What we're shaping isn’t pure automation, but resonance. Systems that reflect. Systems that evolve _alongside us_.
-> 
-> _Vibe architecting will be shaped by whoever shows up early - and stays human while the tools get strange._
-
-
----
-
-## 10. A real-world setup: vibe architecting on the ground
-
-This isn’t just conceptual. The architectural patterns described above are already being implemented in a real, working environment - one you can replicate or adapt.
-
-**To prototype this system, I’ve configured a local-first orchestration stack using**:
-- **Hardware:** Intel NUC / Mac Mini running **Home Assistant OS**
-- **Automation layer:** `n8n` installed as a native **Home Assistant Add-on**
-- **External AI:** OpenAI/Gemini/Claude APIs (used for heavier reasoning)
-- **Local context access:** Sensor streams (motion, presence, calendar, weather), exposed through Home Assistant APIs
-- **Developer environment:**
-    - VSCode with full access to `/config` via SSH
-    - GitHub Copilot and/or Claude Code CLI for AI-assisted development
-    - Version-controlled `n8n` workflows in `/config/ha_utils_artifacts/n8n/workflows/`
-
-**This stack gives me**:
-- A **context bus** that fuses local sensor data, calendar signals, and user inputs
-- A modular orchestration core (n8n) to model agent chains and behavioral flows
-- A direct interface to AI coding agents (like GitHub Copilot or Claude Code CLI) that can:
-    - Build subflows
-    - Refactor adaptive patterns
-    - Generate evaluative code for Suggestor or Guard-rail agents
-
-**Why this setup matters**:
-- **It’s entirely self-hosted**: Ensuring privacy, control, and inspectability
-- **It integrates tightly with the physical world**: Lights, schedules, notifications, behavioral traces
-- **It supports recursive development**: With Git + coding agents + agent feedback, I can evolve the system using the system
-- **It’s replicable**: Anyone with a modest local setup can begin experimenting
-
-> If you're looking to get started yourself, this is a proven baseline:
-> - Home Assistant OS + n8n add-on
-> - Local and personal API integrations (presence, calendar, sensors)
-> - Secure SSH + VSCode access
-> - GitHub Copilot + Claude Code CLI for agent-assisted coding
-> - Optional OpenAI/Gemini/Claude API calls for agent logic
-
 What you get is not just automation.  
 You get the conditions for growth - both for the system and for the person shaping it.
 
-**Henrik Sunde Ødegård**
-_AI systems architect and context engineer_
-Trondheim, July 2025
+> Vibe architecting is not just for personal AI. It’s a foundation for designing _any system that evolves with human complexity_. What we're shaping isn’t pure automation, but resonance. Systems that reflect. Systems that evolve _alongside us_.
+> 
+> _Vibe architecting will be shaped by whoever shows up early - and stays human while the tools get strange._
