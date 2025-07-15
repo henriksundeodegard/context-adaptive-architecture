@@ -34,7 +34,7 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 1. A real-world setup: vibe architecting on the ground
+## 1. A real-world setup
 
 This isn’t just conceptual. The architectural patterns described above are already being implemented in a real, working environment - one you can replicate or adapt.
 
