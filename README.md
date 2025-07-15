@@ -12,6 +12,7 @@ designing intelligent systems that grow with us
 - #8 Limits and open problems
 - #9 First‑step roadmap
 - #10 Call to action
+- #11. Reflections
 
 _This text was written in collaboration with AI_
  
@@ -33,7 +34,7 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 1. A real-world setup
+## 1. A real-world setup: vibe architecting on the ground
 
 This isn’t just conceptual. The architectural patterns described above are already being implemented in a real, working environment - one you can replicate or adapt.
 
@@ -238,3 +239,9 @@ You get the conditions for growth - both for the system and for the person shapi
 > Vibe architecting is not just for personal AI. It’s a foundation for designing _any system that evolves with human complexity_. What we're shaping isn’t pure automation, but resonance. Systems that reflect. Systems that evolve _alongside us_.
 > 
 > _Vibe architecting will be shaped by whoever shows up early - and stays human while the tools get strange._
+
+---
+
+## 11. Reflections
+
+[reflections.md](reflections.md)
