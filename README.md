@@ -36,12 +36,12 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ## 1. A real-world setup
 
-This isn’t just conceptual. The architectural patterns described above are already being implemented in a real, working environment - one you can replicate or adapt.
+This isn’t just conceptual. The architectural patterns described in this artic are already being implemented in a real, working environment - one you can replicate or adapt.
 
 **To prototype this system, I’ve configured a local-first orchestration stack using**:
 - **Hardware:** Intel NUC / Mac Mini running **Home Assistant OS**
 - **Automation layer:** `n8n` installed as a native **Home Assistant Add-on**
-- **External AI:** OpenAI/Gemini/Claude APIs (used for heavier reasoning)
+- **External AI:** OpenAI/Gemini/Claude APIs (used for heavier reasoning, when necessary)
 - **Local context access:** Sensor streams (motion, presence, calendar, weather), exposed through Home Assistant APIs
 - **Developer environment:**
     - VSCode with full access to `/config` via SSH
@@ -148,7 +148,7 @@ The next section is what a practical implementation of vibe architecting might l
 
 This is the scaffolding for a context-adaptive system: one that learns, reflects, evolves, and holds space for human meaning over time. Everything else is iteration.
 
-- **Guard-rail Agent**: A simple rules engine that flags or blocks any proposed change that involves a new integration with a public-facing service (e.g., posting to Twitter) or shares personally identifiable information (PII) between services, requiring explicit, multi-step user confirmation.
+- **Guard-rail Agent**: A simple rules engine that flags or blocks any proposed change that involves a new integration with a public-facing service (e.g., posting to X - previously Twitter) or shares personally identifiable information (PII) between services, requiring explicit, multi-step user confirmation.
 - **Human-facing diff**: Imagine a pop-up on your device: 'I've noticed you snooze your 6:30 AM alarm most Thursdays. I can adapt by moving your 'Deep Work' focus session to 9:30 AM instead of 9:00 AM on Thursdays to give you more ramp-up time. { Approve Change for Thursdays } { Reject } { Learn why I suggested this }'.
 
 ---
