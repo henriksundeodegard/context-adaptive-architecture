@@ -245,3 +245,7 @@ You get the conditions for growth - both for the system and for the person shapi
 ## 11. Reflections
 
 [reflections.md](reflections.md)
+
+---
+
+Henrik Sunde Ødegård, July 2025
