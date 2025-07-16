@@ -78,3 +78,7 @@ It’s about designing a better *way to make agents*.
 Not the statue — the workshop. Not the product — the process.
 
 **You don’t need a smarter AI. You need an architected system that knows how to grow the right kind of intelligence.** That’s what the Intelligence Foundry offers.
+
+---
+
+Henrik Sunde Ødegård, July 2025
