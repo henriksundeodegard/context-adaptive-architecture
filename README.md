@@ -1,5 +1,5 @@
 # Context-adaptive architecting
-designing intelligent systems that grow with us
+designing intelligent systems that evolve with us
 
 - #0 Executive preview
 - #1 A real-world setup
@@ -8,23 +8,21 @@ designing intelligent systems that grow with us
 - #4 Architectural skeleton (MVP‑ready)
 - #5 Four principles of context-adaptive systems
 - #6 What becomes possible
-- #7 Measuring human-centered growth
+- #7 Measuring human-centered evolution
 - #8 Limits and open problems
 - #9 First‑step roadmap
 - #10 Call to action
 - #11. [Architect's reflections.md](reflections.md)
-
-_This text was written in collaboration with AI_
  
 ---
 
 ## 0. Executive preview
 
-> **Thesis**: As LLMs and tools like n8n make it possible for anyone to spin up intelligent workflows in minutes, the critical question is no longer _“Can we build it?”_ but _“What are we actually growing?”_
+> **Thesis**: As LLMs and tools like n8n make it possible for anyone to spin up intelligent workflows in minutes, the critical question is no longer _“Can we build it?”_ but _“What are we actually evolving?”_
 > 
 > We’re entering a phase where automation becomes agency - where we don’t just create tools, but shape systems that evolve with us. That shift demands a new kind of design discipline:
 > 
-> **Context-adaptive / vibe architecting**: a form of _context-adaptive systems architecture_ that centers human growth, emotional resonance, and intentional evolution from the ground up. 
+> **Context-adaptive / vibe architecting**: a form of _context-adaptive systems architecture_ that centers human evolution, emotional resonance, and intentional evolution from the ground up. 
 > 
 > The term 'vibe' is used deliberately to center the often-overlooked affective and felt sense of a system's interaction, moving beyond purely functional metrics. It refers to a composite of ambient signals (context, emotion, time, input patterns) that shape user experience but often go unmodeled in traditional systems.
 > 
@@ -34,14 +32,14 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 1. A real-world setup
+## 1. A real-world setup: vibe architecting on the ground
 
 This isn’t just conceptual. The architectural patterns described in this article are already being implemented in a real, working environment - one you can replicate or adapt.
 
 **To prototype this system, I’ve configured a local-first orchestration stack using**:
 - **Hardware:** Intel NUC / Mac Mini running **Home Assistant OS**
 - **Automation layer:** `n8n` installed as a native **Home Assistant Add-on**
-- **External AI:** OpenAI/Gemini/Claude APIs (used for heavier reasoning, when necessary)
+- **External AI:** OpenAI/Gemini/Claude APIs (used for heavier reasoning)
 - **Local context access:** Sensor streams (motion, presence, calendar, weather), exposed through Home Assistant APIs
 - **Developer environment:**
     - VSCode with full access to `/config` via SSH
@@ -77,7 +75,7 @@ This isn’t just conceptual. The architectural patterns described in this artic
 
 - **Hidden risk:** Without an architectural mindset, those agents drift: brittle hacks, shallow “wow” moments, privacy holes, UX that manipulates rather than mentors.
 
-- **Opportunity:** If we bake _reflection_ and _growth intent_ into the architecture itself, we move from “smart automations” to symbiotic systems that help humans mature rather than merely comply.
+- **Opportunity:** If we bake _reflection_ and _evolution intent_ into the architecture itself, we move from “smart automations” to symbiotic systems that help humans mature rather than merely comply.
 
 - **The plateau of 'smart' systems:** Users are increasingly frustrated with rigid, unintelligent automations that lack context and require constant manual correction. The 'smart home' often becomes a 'chore home'. Vibe architecting addresses this by designing for graceful evolution, not brittle pre-programmed logic.
 
@@ -88,7 +86,7 @@ This isn’t just conceptual. The architectural patterns described in this artic
 
 > **Vibe architecting** is the practice of designing systems that evolve with their users - emotionally, contextually, and intentionally.
 > 
-> These systems don’t just automate. They adapt, reflect, and grow alongside us - embedding context awareness, self-agency, and built-in feedback into their architecture.
+> These systems don’t just automate. They adapt, reflect, and evolve alongside us - embedding context awareness, self-agency, and built-in feedback into their architecture.
 > 
 > It extends the concept behind _vibe coding_ by introducing long-term adaptability, transparent evolution, and intentional friction.
 
@@ -148,7 +146,7 @@ The next section is what a practical implementation of vibe architecting might l
 
 This is the scaffolding for a context-adaptive system: one that learns, reflects, evolves, and holds space for human meaning over time. Everything else is iteration.
 
-- **Guard-rail Agent**: A simple rules engine that flags or blocks any proposed change that involves a new integration with a public-facing service (e.g., posting to X - previously Twitter) or shares personally identifiable information (PII) between services, requiring explicit, multi-step user confirmation.
+- **Guard-rail Agent**: A simple rules engine that flags or blocks any proposed change that involves a new integration with a public-facing service (e.g., posting to Twitter) or shares personally identifiable information (PII) between services, requiring explicit, multi-step user confirmation.
 - **Human-facing diff**: Imagine a pop-up on your device: 'I've noticed you snooze your 6:30 AM alarm most Thursdays. I can adapt by moving your 'Deep Work' focus session to 9:30 AM instead of 9:00 AM on Thursdays to give you more ramp-up time. { Approve Change for Thursdays } { Reject } { Learn why I suggested this }'.
 
 ---
@@ -161,7 +159,7 @@ As LLMs, coding agents, and autonomous workflows allow anyone to generate comple
 | :---: | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1** | **Context-awareness**      | The system listens to environment, timing, emotional signal - not just clicks.<br><br>Sensors, calendars, docs, behavioural traces feed a living _context graph_ used in every decision.<br><br>_The system doesn’t just respond to inputs - it reads the room._ |
 | **2** | **Transparent adaptation** | Every change is logged and human-readable (“Why I changed + what it affects”).<br><br>_Think “git diff” for system behavior._                                                                                                                                    |
-| **3** | **Growth‑driven design**   | The system measures _human flourishing signals_ (clarity, calm, progress) by reflection, alignment, and self-agency - not just completion.<br><br>_It optimizes for human clarity - not just productivity._                                                      |
+| **3** | **Evolutionary design**    | The system measures _human flourishing signals_ (clarity, calm, progress) by reflection, alignment, and self-agency - not just completion.<br><br>_It optimizes for human clarity - not just productivity._                                                      |
 | **4** | **Intentional friction**   | Productive resistance prompts self-awareness.<br><br>Small, purposeful speed‑bumps (journaling prompt, consent check, stretch reminder) prevent passive autopilot and foster self-agency.<br><br>_Friction that sparks reflection, not resistance._              |
 
 
@@ -178,7 +176,7 @@ As LLMs, coding agents, and autonomous workflows allow anyone to generate comple
 
 ---
 
-## 7. Measuring human-centered growth
+## 7. Measuring human-centered evolution
 
 _Flourishing signals for context-adaptive systems_ might include:
 
@@ -228,13 +226,13 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 ## 10. Call to action
 
 - **Builders**: Scaffold the architecture, run it locally or in your domain of choice (health, education, collaboration), and log what breaks.
-- **Researchers**: Help formalize growth‑metrics beyond engagement.
+- **Researchers**: Help formalize evolution‑metrics beyond engagement.
 - **Product teams**: Ask how _intentional friction_ can raise - not just flatten - user agency in your product category.
 - **Educators**: Build learning platforms that adjust _structure_, not just content - responding to focus signals, context shifts, and student growth.
 - **Toolmakers**: Fork the core pattern into creative domains: DAWs, writing apps, second brains, or collaborative whiteboards.
 
 What you get is not just automation.  
-You get the conditions for growth - both for the system and for the person shaping it.
+You get the conditions for evolution - both for the system and for the person shaping it.
 
 > Vibe architecting is not just for personal AI. It’s a foundation for designing _any system that evolves with human complexity_. What we're shaping isn’t pure automation, but resonance. Systems that reflect. Systems that evolve _alongside us_.
 > 
@@ -242,10 +240,10 @@ You get the conditions for growth - both for the system and for the person shapi
 
 ---
 
-## 11. Reflections
+## 11. Architect's reflections
 
-[Architect's reflections.md](reflections.md)
+[[Context-adaptive architecting - reflection]]
 
 ---
 
-Henrik Sunde Ødegård, July 2025
+Henrik Sunde Ødegård
