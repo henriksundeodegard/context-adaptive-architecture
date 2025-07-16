@@ -1,9 +1,5 @@
 # The Architect's Reflection: A Framework for Symbiotic Intelligence
 
-_This text was written in collaboration with AI_
-
----
-
 Context: [Context-adaptive architecture](README.md)
 
 ---
