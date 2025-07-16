@@ -12,7 +12,7 @@ designing intelligent systems that grow with us
 - #8 Limits and open problems
 - #9 First‑step roadmap
 - #10 Call to action
-- #11. [reflections.md](reflections.md)
+- #11. [Architect's reflections.md](reflections.md)
 
 _This text was written in collaboration with AI_
  
@@ -244,7 +244,7 @@ You get the conditions for growth - both for the system and for the person shapi
 
 ## 11. Reflections
 
-[reflections.md](reflections.md)
+[Architect's reflections.md](reflections.md)
 
 ---
 
