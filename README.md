@@ -242,8 +242,8 @@ You get the conditions for evolution - both for the system and for the person sh
 
 ## 11. Architect's reflections
 
-[[Context-adaptive architecting - reflection]]
+[Architect's reflections.md](reflections.md)
 
 ---
 
-Henrik Sunde Ødegård
+Henrik Sunde Ødegård, July 25
