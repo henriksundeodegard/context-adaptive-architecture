@@ -36,7 +36,7 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ## 1. A real-world setup
 
-This isn’t just conceptual. The architectural patterns described in this artic are already being implemented in a real, working environment - one you can replicate or adapt.
+This isn’t just conceptual. The architectural patterns described in this article are already being implemented in a real, working environment - one you can replicate or adapt.
 
 **To prototype this system, I’ve configured a local-first orchestration stack using**:
 - **Hardware:** Intel NUC / Mac Mini running **Home Assistant OS**
