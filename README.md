@@ -1,22 +1,25 @@
 # Context-adaptive architecting
+
 a blueprint for AI systems that evolve **with** human complexity, not just around it.
 
-0. [Executive preview](#0-executivepreview)
-1. [A real-world setup](#1-a-real-world-setup)
-2. [Why this moment demands a new lens](#2-why-this-moment-demands-a-new-lens)
-3. [Vibe architecting (a working definition)](#3-vibearchitecting-a-working-definition)
-4. [Architectural skeleton (MVP‑ready)](#4-architectural-skeleton-mvpready)
-5. [Four principles of context-adaptive systems](#5-four-principles-of-context-adaptive-systems)
-6. [What becomes possible](#6-what-becomes-possible)
-7. [Measuring human-centered evolution](#7-measuring-human-centered-evolution)
-8. [Limits and open problems](#8limits-and-open-problems)
-9. [First‑step roadmap](#9-firststep-roadmap)
-10. [Call to action](#10-call-to-action)
-11. [Architect's reflections.md](#11-architects-reflections)
+## Content
+
+1. [Executive preview](#1-executivepreview)
+2. [A real-world setup](#2-a-real-world-setup)
+3. [Why this moment demands a new lens](#3-why-this-moment-demands-a-new-lens)
+4. [Vibe architecting (a working definition)](#4-vibearchitecting-a-working-definition)
+5. [Architectural skeleton (MVP‑ready)](#5-architectural-skeleton-mvpready)
+6. [Four principles of context-adaptive systems](#6-four-principles-of-context-adaptive-systems)
+7. [What becomes possible](#7-what-becomes-possible)
+8. [Measuring human-centered evolution](#8-measuring-human-centered-evolution)
+9. [Limits and open problems](#9-limits-and-open-problems)
+10. [First‑step roadmap](#10-firststep-roadmap)
+11. [Call to action](#11-call-to-action)
+12. [Architect's reflections.md](#12-architects-reflections)
  
 ---
 
-## 0. Executive preview
+## 1. Executive preview
 
 > **Thesis**: As LLMs and tools like n8n make it possible for anyone to spin up intelligent workflows in minutes, the critical question is no longer _“Can we build it?”_ but _“What are we actually evolving?”_
 > 
@@ -32,7 +35,7 @@ This article gives practitioners a vocabulary, a set of principles, and a concre
 
 ---
 
-## 1. A real-world setup
+## 2. A real-world setup
 
 This isn’t just conceptual. The architectural patterns described in this article are already being implemented in a real, working environment - one you can replicate or adapt.
 
@@ -69,7 +72,7 @@ This isn’t just conceptual. The architectural patterns described in this artic
 
 ---
 
-## 2. Why this moment demands a new lens
+## 3. Why this moment demands a new lens
 
 - **Tool democratization:** Low‑code platforms (n8n, Node‑RED, Make, etc.) + GPT‑class APIs let _any_ developer or power user wire up autonomous agents.
 
@@ -82,7 +85,7 @@ This isn’t just conceptual. The architectural patterns described in this artic
 
 ---
 
-## 3. Vibe architecting (a working definition)
+## 4. Vibe architecting (a working definition)
 
 > **Vibe architecting** is the practice of designing systems that evolve with their users - emotionally, contextually, and intentionally.
 > 
@@ -103,7 +106,7 @@ The next section is what a practical implementation of vibe architecting might l
 
 ---
 
-## 4. Architectural skeleton (MVP‑ready)
+## 5. Architectural skeleton (MVP‑ready)
 
 ````
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -151,7 +154,7 @@ This is the scaffolding for a context-adaptive system: one that learns, reflects
 
 ---
 
-## 5. Four principles of context-adaptive systems
+## 6. Four principles of context-adaptive systems
 
 As LLMs, coding agents, and autonomous workflows allow anyone to generate complex software, a new frontier emerges: **how do we ensure these easily conceptualized intelligent systems remain coherent, aligned, and evolvable over time?**
 
@@ -165,7 +168,7 @@ As LLMs, coding agents, and autonomous workflows allow anyone to generate comple
 
 ---
 
-## 6. What becomes possible
+## 7. What becomes possible
 
 | Domain                 | Concrete example                                                                                                                                                                                                                                                                   |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,7 +179,7 @@ As LLMs, coding agents, and autonomous workflows allow anyone to generate comple
 
 ---
 
-## 7. Measuring human-centered evolution
+## 8. Measuring human-centered evolution
 
 _Flourishing signals for context-adaptive systems_ might include:
 
@@ -191,7 +194,7 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 
 ---
 
-## 8. Limits and open problems
+## 9. Limits and open problems
 
 1. **Alignment recursion**: Self‑modifying agents must explicitly inherit, verify, and transparently document their underlying value‑sets. Whether inherited through user onboarding, carefully crafted prompt libraries, or adaptive feedback loops, these assumptions must always remain inspectable. Formal verification methods and tamper‑evident logs become non‑negotiable to maintain user trust and system integrity.
 
@@ -204,7 +207,7 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 
 ---
 
-## 9. First‑step roadmap
+## 10. First‑step roadmap
 
 | Horizon    | Deliverable                                                                                                                                                                                                                   |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -223,7 +226,7 @@ The goal isn’t just personalization - it’s alignment with who the user is be
 
 ---
 
-## 10. Call to action
+## 11. Call to action
 
 - **Builders**: Scaffold the architecture, run it locally or in your domain of choice (health, education, collaboration), and log what breaks.
 - **Researchers**: Help formalize evolution‑metrics beyond engagement.
@@ -240,7 +243,7 @@ You get the conditions for evolution - both for the system and for the person sh
 
 ---
 
-## 11. Architect's reflections
+## 12. Architect's reflections
 
 **Preamble:**  
 Much of current AI development focuses on building increasingly capable, single-instance intelligent agents. But as tools like LLMs, agent frameworks, and workflow orchestrators become more powerful, I think we need a shift in orientation - from building *individual AIs* to building the **systems that create AIs**.  
