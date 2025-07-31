@@ -1,6 +1,6 @@
 # Context-adaptive architecting
 
-a blueprint for AI systems that evolve **with** human complexity, not just around it.
+a blueprint for AI systems that evolve **WITH** human complexity, not just around it.
 
 ## Content overview
 
