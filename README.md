@@ -1,7 +1,7 @@
 # Context-adaptive architecting
 designing intelligent systems that evolve with us
 
-- #0 Executive preview
+- 0. [Executive preview](#0-executivepreview)
 - #1 A real-world setup
 - #2 Why this moment demands a new lens
 - #3 Vibe architecting (a working definition)
