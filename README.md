@@ -2,7 +2,7 @@
 
 a blueprint for AI systems that evolve **with** human complexity, not just around it.
 
-## Content
+## Content overview
 
 1. [Executive preview](#1-executivepreview)
 2. [A real-world setup](#2-a-real-world-setup)
@@ -12,11 +12,11 @@ a blueprint for AI systems that evolve **with** human complexity, not just aroun
 6. [Four principles of context-adaptive systems](#6-four-principles-of-context-adaptive-systems)
 7. [What becomes possible](#7-what-becomes-possible)
 8. [Measuring human-centered evolution](#8-measuring-human-centered-evolution)
-9. [Limits and open problems](#9limits-and-open-problems)
+9. [Limits and open problems](#9-limits-and-open-problems)
 10. [First‑step roadmap](#10-firststep-roadmap)
 11. [Call to action](#11-call-to-action)
-12. [Architect's reflections.md](#12-architects-reflections)
- 
+12. [Architect's reflections](#12-architects-reflections)
+
 ---
 
 ## 1. Executive preview
