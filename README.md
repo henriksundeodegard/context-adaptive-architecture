@@ -1,18 +1,18 @@
 # Context-adaptive architecting
-designing intelligent systems that evolve with us
+a blueprint for AI systems that evolve **with** human complexity, not just around it.
 
-- 0. [Executive preview](#0-executivepreview)
-- #1 A real-world setup
-- #2 Why this moment demands a new lens
-- #3 Vibe architecting (a working definition)
-- #4 Architectural skeleton (MVP‑ready)
-- #5 Four principles of context-adaptive systems
-- #6 What becomes possible
-- #7 Measuring human-centered evolution
-- #8 Limits and open problems
-- #9 First‑step roadmap
-- #10 Call to action
-- #11. [Architect's reflections.md](reflections.md)
+0. [Executive preview](#0-executivepreview)
+1. [A real-world setup](#1-a-real-world-setup)
+2. [Why this moment demands a new lens](#2-why-this-moment-demands-a-new-lens)
+3. [Vibe architecting (a working definition)](#3-vibearchitecting-a-working-definition)
+4. [Architectural skeleton (MVP‑ready)](#4-architectural-skeleton-mvpready)
+5. [Four principles of context-adaptive systems](#5-four-principles-of-context-adaptive-systems)
+6. [What becomes possible](#6-what-becomes-possible)
+7. [Measuring human-centered evolution](#7-measuring-human-centered-evolution)
+8. [Limits and open problems](#8limits-and-open-problems)
+9. [First‑step roadmap](#9-firststep-roadmap)
+10. [Call to action](#10-call-to-action)
+11. [Architect's reflections.md](#11-architects-reflections)
  
 ---
 
@@ -242,38 +242,30 @@ You get the conditions for evolution - both for the system and for the person sh
 
 ## 11. Architect's reflections
 
-I added my reflections as a separate note, [Architect's reflections.md](reflections.md), but will also include the full reflection note below here.
-
-# The Architect's Reflection: A Framework for Symbiotic Intelligence
-
-Context: [Context-adaptive architecture](README.md)
-
----
-
 **Preamble:**  
-Much of current AI development focuses on building increasingly capable, single-instance intelligent agents. But as tools like LLMs, agent frameworks, and workflow orchestrators become more powerful, I think we need a shift in orientation — from building *individual AIs* to building the **systems that create AIs**.  
+Much of current AI development focuses on building increasingly capable, single-instance intelligent agents. But as tools like LLMs, agent frameworks, and workflow orchestrators become more powerful, I think we need a shift in orientation - from building *individual AIs* to building the **systems that create AIs**.  
 This is the move from artifact to *foundry* — from “make a tool” to “sculpt the system that makes tools intentionally.”
 
-## 1. The Intelligence Foundry
+### a) The intelligence foundry
 
 What I'm describing isn’t just another intelligent assistant. It’s a **meta-architecture** — a system designed to *instantiate and evolve intelligent systems* with aligned purpose, modular coherence, and built-in reflection loops.
 
 Think of it as an **Intelligence Foundry** — or a **Sculptor**. Its role isn’t to “be intelligent.” Its role is to **design the scaffolding** that intelligence grows from. It serves three core functions:
 
-- **Scaffolding Engine**  
+- **Scaffolding engine**  
   It provides the minimal viable structure — the architectural skeleton — for any new system. This ensures coherence and modularity from the start, rather than relying on brittle or emergent sprawl.
 
-- **Ethical Compiler**  
+- **Ethical compiler**  
   It accepts high-level, human-centric values — like Compassion, Non-Harm, Intentional Friction, and Growth — and compiles them into system constraints and behavior policies. It hard-codes intent as structure.
 
-- **Evolutionary Bootstrap**  
+- **Evolutionary bootstrap**  
   It seeds each system with a built-in recursive loop: a mechanism for reflection, feedback, and controlled self-modification. The system can evolve with the user and its environment — safely, slowly, and legibly.
 
 In other words: the Foundry doesn’t automate behavior. It automates *design with alignment*. It generates systems that are already set up to grow in the right direction.
 
 ---
 
-## 2. Co-Evolution as Foundation
+### b) Co-evolution as foundation
 
 The need for this kind of Foundry comes from a deeper insight about stability and emergence. To borrow from Conway’s Game of Life:  
 There are two broad paths to complex intelligence:
@@ -290,7 +282,7 @@ These aren’t “agents with goals.” They’re **partners with trajectories**
 
 ---
 
-## 3. A Simple Example
+### c) A simple example
 
 Let’s say the Foundry generates a calendar agent. It’s not just a scheduling script — it comes pre-loaded with a value-set emphasizing *focus protection* and *burnout recovery*. It has:
 
@@ -302,22 +294,22 @@ That agent didn’t just emerge. It was *instantiated* from the Foundry — carr
 
 ---
 
-## 4. Why It Matters
+### d) Why it matters
 
 This pattern has implications beyond smart automation. It reframes how we build, evaluate, and live with intelligent systems.
 
-- **For Builders:**  
+- **For builders:**  
   The challenge shifts from product engineering to **foundry engineering**. Can you create a system that *generates adaptive agents* safely and consistently, rather than trying to hard-code intelligence into each new tool?
 
-- **For Society & Ethics:**  
+- **For society and ethics:**  
   This approach is *inherently safer*. Rather than chasing general intelligence from a single model, it supports *plural*, modular intelligences — aligned to users, accountable by design, and transparent in change.
 
-- **For the Individual:**  
+- **For the individual:**  
   It offers tools that don’t just automate — they support **evolution**. Systems that don’t just complete tasks, but help us reflect, realign, and grow.
 
 ---
 
-## 5. In Summary
+### e) In summary
 
 This isn’t about making a better agent.  
 It’s about designing a better *way to make agents*.  
