@@ -322,4 +322,4 @@ Not the statue — the workshop. Not the product — the process.
 
 ---
 
-Henrik Sunde Ødegård, July 25
+Henrik, July 25
